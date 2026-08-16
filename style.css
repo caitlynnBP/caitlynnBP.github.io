@@ -7,7 +7,7 @@
     --radius: 10px;
     --bg: #eef0ea;
     --text: #081949;
-    --blue: #2f4fe0;
+    --blue: #4258bc;
     --muted: #7a8090;
     
 }
@@ -63,6 +63,9 @@ ul{
     line-height: 1.05;
     letter-spacing: 3px;
     margin-bottom: 5px;
+}
+.accent {
+    color: var(--blue);
 }
 .short-bio{
     text-align: center;

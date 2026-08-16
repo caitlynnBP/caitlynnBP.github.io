@@ -7,7 +7,7 @@
     --radius: 10px;
     --bg: #eef0ea;
     --text: #081949;
-    --blue: #2f4fe0;
+    --blue: #4258bc;
     --muted: #7a8090;
     
 }
@@ -63,6 +63,9 @@ ul{
     line-height: 1.05;
     letter-spacing:3px;
     margin-bottom: 20px;
+}
+.accent {
+    color: var(--blue);
 }
 .short-bio{
     text-align: center;
@@ -129,7 +132,7 @@ ul{
 .window-body{
     padding: 20px;
     margin-top: 25px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .output { 
     margin-top: 5px; 
@@ -160,13 +163,12 @@ a:focus-visible, .btn:focus-visible {
     body { font-size: 18px; }
 }
 
-.prompt1 {
-    float: left;
-    width: 50%;
-}
-.answer {
-    float: left;
-    width: 50%;
+.quick{
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    column-gap: 40px;
+    row-gap: 12px;
+    align-items: start;
 }
 .one:after {
   content: "";
